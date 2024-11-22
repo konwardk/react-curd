@@ -1,11 +1,9 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from './views/Home';
-import Guest from './views/guest/guest.js';
+import Guest from './views/guest/Guest';
 
 
 function App() {
-  const isLogedIn = true;
   return (
     <>
     <Guest/>
